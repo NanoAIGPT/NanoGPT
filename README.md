@@ -13,13 +13,6 @@ Then with some trial and errors, I wrote the full inference pipeline of the nano
 Forget python, it turned out that <mark>**spreadsheet is all you need**<mark>.
 
 
-**This is the full view of the spreadsheet**
-![**spreadsheet is all you need**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/spreadsheetisallyouneed.jpg?raw=true)
-
-**Zooming into the core of a transformer--self attention**
-![**The core of a transformer--self attention**](https://github.com/dabochen/spreadsheet-is-all-you-need/blob/main/KQV.jpg?raw=true)
-
-
 ## What components will you see
 It contains all the transformer components including:
 1. embedding
@@ -55,7 +48,7 @@ Firstly, all the blocks are the values or parameters that is processed through t
 Secondly, you should start from the top and work all the way down to the bottom, and there are labels on the left of the page showing what stage you are in.<br>
 There are three transformers labeled 0/1/2, each have the same structure and should contain different parameters, data will go through all of them in the sequential order.
 
-Lastly, this demo is built with great help from the LLM visualization project (https://bbycroft.net/llm) by Brendan Bycroft which uses 3D animations to explain transformers.<br>
+Lastly, this demo is built with great help from the LLM visualization project which uses 3D animations to explain transformers.<br>
 I kept the example it used which is about sorting letters.
 
 If you are using the recently added Excel version, you will note that it might look the same as the attached images, this is due to the limitation of excel not being able to include multiple tables on one page, to make it clearer, I added the "MAP" tab and "Visual Structure of the pipeline" tab, these two will give you a menu and a rought layout of the architecture, you can click on the link to jump to the page and come back using the go back link on the top left of each page.
@@ -73,11 +66,4 @@ I wish I could just upload all the tutorials I've watched into chatgpt and ask i
 Anyone is welcomed if they want to build something more complicated than nanoGPT, although I do feel like nanoGPT in a spreadsheet is already a lot for my M2 chip.<br>
 
 
-## Special Thanks
-Thanks to the following projects that helped me a lot when creating this spreasheet.<br>
-If you are interested in my project, the following links will also be very helpful, much more helpful than spreadsheet is all you need.
 
-1. [**Andrej Karpathy's youtube tutorial "Let's build GPT"**](https://www.youtube.com/watch?v=kCc8FmEb1nY): https://www.youtube.com/watch?v=kCc8FmEb1nY
-2. [**Andrej Karpathy's NanoGPT project**](https://github.com/karpathy/nanoGPT): https://github.com/karpathy/nanoGPT
-3. [**Brendan Bycroft's 3D visualization of transformers**](https://bbycroft.net/llm): https://bbycroft.net/llm
-4. [**3Blue1Brown's LLM course**](https://youtu.be/eMlx5fFNoYc?si=k40zeuPdM_4cB88o): https://youtu.be/eMlx5fFNoYc?si=k40zeuPdM_4cB88o
